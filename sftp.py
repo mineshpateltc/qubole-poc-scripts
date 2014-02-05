@@ -4,7 +4,6 @@ This script will create an sftp connection, download files locally, then will co
 The local files will be deleted upon copy to s3.
 
 This is currently designed to work for the 49ers POC.
-The assumption here is that the file names will be constructed as: 49ersExport[category][YYYYmmdd]*.csv
 
 There will be a directory under the s3 path created for each 'category'. Under that, there will be a daily directory
 
